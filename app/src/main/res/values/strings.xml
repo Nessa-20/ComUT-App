@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ComUTAPP</string>
+    <string name="screen1">NEAR BY LOCATION📍</string>
+    <string name="screen2">NO DEPOSIT🚫 </string>
+    <string name="screen3">TWO WHEELER</string>
+    <string name="screen1desc">ComUt app allows user to find a needed vehicle anytime, anywhere which will help to reach their location quickly.</string>
+    <string name="screen2desc">Get your choice of any vehicle without paying any kind of advance payment.</string>
+    <string name="screen3desc">Now you can earn money from your two wheeler to.</string>
+    <string name="startDesc">ComUT app helps you to make your payment securely and instantly.</string>
+    <string name="todo">TODO</string>
+    <string name="rent_out_vehicle">Rent Out Vehicle</string>
+    <string name="get_a_vehicle_on_rent">Get a Vehicle on Rent</string>
+    <string name="please_indicate_your_preferred_vehicle_type_for_rental">Please indicate your preferred vehicle type for rental!</string>
+    <string name="please_indicate_the_specific_type_of_vehicle_you_wish_to_rent">Please indicate the specific type of vehicle you wish to rent!</string>
+    <string name="fill_your_bike_details_n_here">FILL YOUR BIKE DETAILS!\n HERE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

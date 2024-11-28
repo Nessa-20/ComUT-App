@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_get_bike">
+
+    <!-- Text Views for Labels -->
+    <TextView
+        android:id="@+id/textBike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FILL YOUR CAR DETAILS"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/editOwnerName"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Owner Name"
+            android:padding="8dp" />
+
+
+        <EditText
+            android:id="@+id/editInsuranceUpto"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Insurance Upto"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editRegistrationNo"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Registration No"
+            android:padding="8dp" />
+
+
+        <EditText
+            android:id="@+id/editRegistrationDate"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/editDrivingLicense"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Registration DATE"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editFuelType"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/editRegistrationDate"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="FUEL TYPE"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editChassisNo"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/editFuelType"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Chassis No"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editVehicleClass"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/editOwnerName"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Vehicle Class"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editMakerModel"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/editVehicleClass"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Maker/Model"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnCaptureDL"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editDrivingLicense"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="captureDrivingLicense"
+            android:text="Capture Driving License" />
+        <Button
+            android:id="@+id/btnCaptureInsurancePolicy"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="captureInsurancePolicy"
+            android:text="Capture Insurance Policy" />
+
+        <Button
+            android:id="@+id/btnSelectPUC"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="selectPUCCertificate"
+            android:text="Select PUC Certificate" />
+
+        <Button
+            android:id="@+id/btnCaptureRC"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="captureRCBook"
+            android:text="Capture RC Book" />
+
+        <ImageButton
+            android:id="@+id/savedetails"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_arrow_circle_right_24" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

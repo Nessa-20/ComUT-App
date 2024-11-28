@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_get_bike">
+
+    <!-- Text Views for Labels -->
+    <TextView
+        android:id="@+id/textBike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FILL YOUR BIKE DETAILS"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/editOwnerName"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Owner Name"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/editDrivingLicense"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/yellow_border"
+            android:hint="Driving License"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnUploadDrivingLicense"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="Upload Driving License" />
+
+        <Button
+            android:id="@+id/btnUploadOtherIdentityProof"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Upload Identity Proof" />
+
+        <ImageButton
+            android:id="@+id/savedetails"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_arrow_circle_right_24" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
